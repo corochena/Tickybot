@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+#main {
+    background-color: rgb(90, 194, 207);
+}
+
+#features img {
+    width: 60%;
+}
+
+#features figure {
+    width: 30%;
+    background-color: darkslategrey;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#features figcaption {
+    background-color: white;
+    padding: 1.5em;
+}
+
+.code {
+    color: red;
+    background-color: gainsboro;
+    font-family: monospace;
+    padding: 0.2em;
+    font-size: 110%;
+}
