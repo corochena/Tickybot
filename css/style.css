@@ -104,10 +104,17 @@ nav a:hover {
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 0 2em;
+    text-align: left;
+}
+
+#about .twospan {
+    grid-column: 1/3;
 }
 
 #features {
     background-color: rgb(102, 218, 179);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #features img {
@@ -115,7 +122,6 @@ nav a:hover {
 }
 
 #features figure {
-    width: 30%;
     background-color: darkslategrey;
     text-align: center;
     border-radius: 4px;
