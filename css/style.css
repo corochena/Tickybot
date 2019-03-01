@@ -119,12 +119,10 @@ nav a:hover {
 
 #features {
     background-color: rgb(102, 218, 179);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #features img {
-    width: 60%;
+    width: 70%;
 }
 
 #features figure {
@@ -140,7 +138,7 @@ nav a:hover {
 
 #features div.figures {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #addit p {
