@@ -8,7 +8,11 @@ body {
 }
 
 section {
-    padding: 1em 0;
+    padding: 1em 0 2em 0;
+}
+
+section h1 {
+    font-size: 200%;
 }
 
 button {
@@ -34,6 +38,7 @@ button.light {
 button.dark {
     color: rgb(216, 216, 216);
     background-color: rgb(65, 84, 95);
+    margin: 3em 0;
 }
 
 nav {
@@ -115,7 +120,6 @@ nav a:hover {
 }
 
 #features figure {
-    width: 30%;
     background-color: darkslategrey;
     text-align: center;
     border-radius: 4px;
@@ -126,13 +130,31 @@ nav a:hover {
     padding: 1.5em;
 }
 
+#features div.figures {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#addit p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    height: 90px;
+    background-color: rgb(65, 84, 95);
+    color: rgb(212, 212, 212);
+    font-size: 70%;
+    padding: 0.3em;
+    line-height: 1.5em;
+}
+
 /* Utility Classes  */
 
 .container {
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
-
 }
 
 .code {
