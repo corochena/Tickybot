@@ -13,6 +13,7 @@ section {
 
 section h1 {
     font-size: 200%;
+    border-bottom: 2px solid rgb(120, 196, 226);
 }
 
 button {
