@@ -102,5 +102,15 @@
         </footer>
 
         <a href="#main" id="top"></a>
+        <script>
+            addEventListener('scroll', function() {
+                if (document.documentElement.scrollTop > 800) {
+                    document.querySelector('a#top').style.visibility = "visible";
+                }
+                else {
+                    document.querySelector('a#top').style.visibility = "hidden";
+                }
+            })
+        </script>
     </body>
 </html>
