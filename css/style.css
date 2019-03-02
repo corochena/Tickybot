@@ -136,23 +136,28 @@ nav a:hover {
 }
 
 #features img {
-    width: 70%;
+    width: 60%;
+    padding: 60px 40px;
 }
 
 #features figure {
     background-color: darkslategrey;
     text-align: center;
     border-radius: 4px;
+    width: 370px;
+    margin: 0;
 }
 
 #features figcaption {
     background-color: white;
     padding: 1.5em;
+    height: 80px;
 }
 
 #features div.figures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 #addit p {
