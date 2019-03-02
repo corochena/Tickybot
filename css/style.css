@@ -42,8 +42,12 @@ button.dark {
     margin: 3em 0;
 }
 
-a, a:visited {
+footer a, footer a:visited {
     color: white;
+}
+
+a, a:visited {
+    color: black;
 }
 
 a#top {
@@ -96,13 +100,16 @@ nav a:hover {
 #main {
     background-color: rgb(120, 196, 226);
     padding-top: 0;
-    min-height: 600px;
 }
 
 #main .container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    padding-top: 4em;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3em;
+}
+
+#main img {
+    width: 100%;
 }
 
 #main h1 {
@@ -149,7 +156,7 @@ nav a:hover {
     background-color: darkslategrey;
     text-align: center;
     border-radius: 4px;
-    width: 370px;
+    width: 90%;
     margin: 0;
 }
 
@@ -198,4 +205,29 @@ footer {
 .ticky {
     font-family: 'Carter One', 'cursive';
     font-weight: bold;
+}
+
+@media (max-width: 980px) {
+    #features div.figures {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1em;
+    }
+
+    #main .container{
+        grid-template-columns: 1fr;
+        padding-top: 0;
+    }
+
+    #main img {
+        width: 75%;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 780px) {
+    #features div.figures {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
